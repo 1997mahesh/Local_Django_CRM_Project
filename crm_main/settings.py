@@ -146,7 +146,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 try:
-    from crm_main.local_settings import *
+    from crm_main.loc_settings import *
 except ImportError:
     pass
 
